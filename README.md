@@ -133,7 +133,7 @@ The Streamlit application provides the following sections:
 
 ## 🌐 Public Deployment
 
-🔗 **Live App Link:** *(To be added)*
+🔗 **Live App Link:** *(https://bottrainer-fuwrdkdteg6krukhvdwvbr.streamlit.app/)*
 
 ---
 
