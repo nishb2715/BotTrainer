@@ -122,9 +122,14 @@ The Streamlit application provides the following sections:
 
 ## 📸 Screenshots
 
-*(To be added)*
+### NLU Analyzer
+![NLU Analyzer](screenshots/nlu_analyzer.png)
 
----
+### Interaction Log
+![Interaction Log](screenshots/interaction_log.png)
+
+### Supported Intents (N-Intent Scalability)
+![Intent List](screenshots/working.png)
 
 ## 🌐 Public Deployment
 
