@@ -89,7 +89,7 @@ The system dynamically loads intents and entity schemas from a dataset (`intents
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/<your-username>/BotTrainer.git
+git clone https://github.com/nishb2715/BotTrainer.git
 cd BotTrainer
 conda create -n infosys_env python=3.10
 conda activate infosys_env
