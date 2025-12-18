@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Book a flight to Delhi tomorrow",
+    "intent": "book_flight",
+    "entities": {
+      "location": "Delhi",
+      "date": "tomorrow"
+    }
+  },
+  {
+    "text": "I want to eat pizza",
+    "intent": "order_food",
+    "entities": {
+      "food_item": "pizza"
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "greet",
+    "entities": {}
+  }
+]

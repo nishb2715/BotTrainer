@@ -1,0 +1,64 @@
+{
+  "sessions": [
+    {
+      "score": 6,
+      "strengths": [
+        "communication"
+      ],
+      "improvements": [
+        "add examples"
+      ]
+    },
+    {
+      "score": 8,
+      "strengths": [
+        "clarity"
+      ],
+      "improvements": [
+        "be more concise"
+      ]
+    },
+    {
+      "score": 6,
+      "strengths": [
+        "communication"
+      ],
+      "improvements": [
+        "add examples"
+      ]
+    },
+    {
+      "score": 8,
+      "strengths": [
+        "clarity"
+      ],
+      "improvements": [
+        "be more concise"
+      ]
+    },
+    {
+      "score": 4,
+      "strengths": [
+        "Mentioned a deadline",
+        "Mentioned working with a team"
+      ],
+      "improvements": [
+        "Lacked specific details about the change",
+        "Failed to provide a clear explanation of the adaptation process",
+        "Did not demonstrate any personal growth or learning from the experience"
+      ]
+    },
+    {
+      "score": 4,
+      "strengths": [
+        "Mentioned a deadline",
+        "Mentioned working with a team"
+      ],
+      "improvements": [
+        "Lacked specific details about the change",
+        "Failed to provide a clear explanation of the adaptation process",
+        "Did not demonstrate any personal growth or learning from the experience"
+      ]
+    }
+  ]
+}

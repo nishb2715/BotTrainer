@@ -1,0 +1,200 @@
+{
+  "intents": [
+    {
+      "name": "book_flight",
+      "examples": [
+        "Book a flight to Delhi",
+        "I want to fly to Mumbai tomorrow",
+        "Get me a ticket to Bangalore"
+      ],
+      "entities": ["location", "date"]
+    },
+    {
+      "name": "cancel_flight",
+      "examples": [
+        "Cancel my flight",
+        "I want to cancel my ticket",
+        "Cancel my booking"
+      ],
+      "entities": ["booking_id"]
+    },
+    {
+      "name": "flight_status",
+      "examples": [
+        "What is the status of my flight?",
+        "Is my flight delayed?",
+        "Check flight status"
+      ],
+      "entities": ["flight_number"]
+    },
+    {
+      "name": "order_food",
+      "examples": [
+        "Order a pizza",
+        "I want to eat biryani",
+        "Get me some burgers"
+      ],
+      "entities": ["food_item"]
+    },
+    {
+      "name": "track_order",
+      "examples": [
+        "Track my food order",
+        "Where is my order?",
+        "Check my order status"
+      ],
+      "entities": ["order_id"]
+    },
+    {
+      "name": "cancel_order",
+      "examples": [
+        "Cancel my order",
+        "I want to cancel food order",
+        "Cancel the delivery"
+      ],
+      "entities": ["order_id"]
+    },
+    {
+      "name": "greet",
+      "examples": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning"
+      ],
+      "entities": []
+    },
+    {
+      "name": "goodbye",
+      "examples": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "entities": []
+    },
+    {
+      "name": "thank_you",
+      "examples": [
+        "Thanks",
+        "Thank you so much",
+        "Appreciate it"
+      ],
+      "entities": []
+    },
+    {
+      "name": "complaint",
+      "examples": [
+        "I want to raise a complaint",
+        "This service is bad",
+        "I am unhappy with the service"
+      ],
+      "entities": ["issue_type"]
+    },
+    {
+      "name": "refund_request",
+      "examples": [
+        "I want a refund",
+        "Refund my money",
+        "How can I get a refund?"
+      ],
+      "entities": ["order_id"]
+    },
+    {
+      "name": "payment_issue",
+      "examples": [
+        "My payment failed",
+        "Money got deducted",
+        "Payment issue occurred"
+      ],
+      "entities": ["payment_id"]
+    },
+    {
+      "name": "update_profile",
+      "examples": [
+        "Update my profile",
+        "Change my phone number",
+        "Edit my account details"
+      ],
+      "entities": ["profile_field"]
+    },
+    {
+      "name": "reset_password",
+      "examples": [
+        "Reset my password",
+        "I forgot my password",
+        "Change account password"
+      ],
+      "entities": []
+    },
+    {
+      "name": "check_balance",
+      "examples": [
+        "Check my account balance",
+        "How much balance do I have?",
+        "Show wallet balance"
+      ],
+      "entities": ["account_type"]
+    },
+    {
+      "name": "technical_support",
+      "examples": [
+        "App is not working",
+        "Facing technical issues",
+        "Something is broken"
+      ],
+      "entities": ["issue_type"]
+    },
+    {
+      "name": "schedule_meeting",
+      "examples": [
+        "Schedule a meeting",
+        "Book a meeting for tomorrow",
+        "Set up a meeting"
+      ],
+      "entities": ["date", "time"]
+    },
+    {
+      "name": "cancel_meeting",
+      "examples": [
+        "Cancel the meeting",
+        "Delete my meeting",
+        "Cancel scheduled meeting"
+      ],
+      "entities": ["meeting_id"]
+    },
+    {
+      "name": "get_weather",
+      "examples": [
+        "What is the weather today?",
+        "Weather in Delhi",
+        "Is it raining outside?"
+      ],
+      "entities": ["location"]
+    },
+    {
+      "name": "general_query",
+      "examples": [
+        "Can you help me?",
+        "I have a question",
+        "Tell me something"
+      ],
+      "entities": []
+    }
+  ],
+
+  "entities": {
+    "location": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Udaipur"],
+    "food_item": ["pizza", "biryani", "burger"],
+    "date": ["today", "tomorrow"],
+    "time": ["morning", "evening"],
+    "order_id": ["ORD123", "ORD456"],
+    "booking_id": ["BK001", "BK002"],
+    "payment_id": ["PAY111", "PAY222"],
+    "flight_number": ["AI101", "6E202"],
+    "issue_type": ["delay", "refund", "technical"],
+    "profile_field": ["phone number", "email"],
+    "account_type": ["wallet", "bank"],
+    "meeting_id": ["MTG1001"]
+  }
+}
