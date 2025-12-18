@@ -1,9 +1,6 @@
 streamlit
-openai
+python-dotenv
+scikit-learn
 pandas
 numpy
-scikit-learn
-matplotlib
-python-dotenv
-requests
-tqdm
+groq
