@@ -95,3 +95,43 @@ conda create -n infosys_env python=3.10
 conda activate infosys_env
 pip install -r requirements.txt
 ```
+
+## 📊 Model Evaluation
+
+The system evaluates intent prediction performance using standard classification metrics:
+
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+
+A **confusion matrix** is used for detailed error analysis and to identify misclassified intents.  
+Insights from this analysis are used to improve prompt quality through few-shot learning.
+
+---
+
+## 🖥️ Streamlit Interface
+
+The Streamlit application provides the following sections:
+
+- **NLU Analyzer** – Test intent classification and entity extraction
+- **Interaction Log** – View conversation history and predictions
+- **Intent List** – Display all supported intents dynamically (N-intent scalability)
+
+---
+
+## 📸 Screenshots
+
+*(To be added)*
+
+---
+
+## 🌐 Public Deployment
+
+🔗 **Live App Link:** *(To be added)*
+
+---
+
+## 🎥 Demo Video
+
+📎 **Demo Video Link:** *(To be added)*
