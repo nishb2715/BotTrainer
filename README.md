@@ -139,4 +139,4 @@ The Streamlit application provides the following sections:
 
 ## 🎥 Demo Video
 
-📎 **Demo Video Link:** *(To be added)*
+📎 **Demo Video Link:** *(https://youtu.be/b2-UTJOSXUY)*
