@@ -71,19 +71,26 @@ The system dynamically loads intents and entity schemas from a dataset (`intents
 
 
 
-Tech Stack
 
-Programming Language: Python
+---
 
-LLMs: LLaMA (via Groq API)
+## 🛠️ Tech Stack
 
-Frontend/UI: Streamlit
+- **Programming Language:** Python
+- **Large Language Models:** LLaMA (via Groq API)
+- **Frontend/UI:** Streamlit
+- **Evaluation:** scikit-learn
+- **Data Format:** JSON
+- **Version Control:** Git & GitHub
 
-Evaluation: scikit-learn
+---
 
-Data Format: JSON
+## ⚙️ Installation & Setup
 
-Version Control: Git & GitHub
-
-**NLU Pipeline Flow:**
+```bash
+git clone https://github.com/<your-username>/BotTrainer.git
+cd BotTrainer
+conda create -n infosys_env python=3.10
+conda activate infosys_env
+pip install -r requirements.txt
 
