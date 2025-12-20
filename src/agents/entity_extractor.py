@@ -1,6 +1,7 @@
 import json
-from src.llm_client import call_llm
-from src.utils import load_intent_metadata
+from src.agents.llm_client import call_llm
+from src.agents.utils import load_intent_metadata
+
 
 def extract_entities(text, intent):
     _, intent_entity_map = load_intent_metadata()

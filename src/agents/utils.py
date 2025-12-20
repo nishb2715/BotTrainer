@@ -1,4 +1,5 @@
 import json
+#from src.agents.utils import load_intent_metadata
 
 def load_intent_metadata(path="data/intents.json"):
     """

@@ -1,8 +1,14 @@
-from src.utils import load_intent_metadata
-import streamlit as st
+'''from src.utils import load_intent_metadata'''
 
-from src.intent_classifier import classify_intent
-from src.entity_extractor import extract_entities
+from src.agents.utils import load_intent_metadata
+
+import streamlit as st
+import json
+
+from src.agents.intent_classifier import classify_intent
+from src.agents.entity_extractor import extract_entities
+
+
 
 # ----------------- PAGE CONFIG -----------------
 st.set_page_config(
